@@ -17,4 +17,3 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 
-vim.g.mapleader = " "
