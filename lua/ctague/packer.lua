@@ -50,4 +50,10 @@ return require('packer').startup(function(use)
         }
     }
     -- this would be good at work https://github.com/David-Kunz/jester
+    -- https://github.com/iamcco/markdown-preview.nvim
+    use({
+        "iamcco/markdown-preview.nvim",
+        run = function() vim.fn["mkdp#util#install"]() end,
+    })
+    use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
 end)
