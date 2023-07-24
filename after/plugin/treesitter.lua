@@ -3,13 +3,14 @@ require'nvim-treesitter.configs'.setup {
 	  "c",
 	  "lua",
 	  "vim",
-	  "help",
 	  "javascript",
 	  "typescript",
 	  "java",
 	  "python",
 	  "tsx",
-	  "cpp"
+	  "cpp",
+      "svelte",
+      "css"
   },
   sync_install = false,
   auto_install = true,

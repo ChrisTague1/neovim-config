@@ -5,7 +5,9 @@ lsp.preset('recommended')
 lsp.ensure_installed({
 	'tsserver',
 	'eslint',
-	'rust_analyzer'
+	'rust_analyzer',
+    'svelte',
+    'tailwindcss'
 })
 
 local cmp = require('cmp')
