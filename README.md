@@ -11,3 +11,7 @@
 [Github Page](https://github.com/iamcco/markdown-preview.nvim)
 - `:MarkdownPreview` to start a local preview in browser
 - `:MarkdownPreviewStop` to stop it
+
+# Stuff I gotta do
+- More VS Code like colors
+- HTML indentation
