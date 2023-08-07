@@ -7,7 +7,8 @@ lsp.ensure_installed({
 	'eslint',
 	'rust_analyzer',
     'svelte',
-    'tailwindcss'
+    'tailwindcss',
+    'pylsp'
 })
 
 local cmp = require('cmp')
