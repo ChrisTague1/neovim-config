@@ -55,4 +55,8 @@ return require('packer').startup(function(use)
         "iamcco/markdown-preview.nvim",
         run = function() vim.fn["mkdp#util#install"]() end,
     })
+    use 'm4xshen/autoclose.nvim'
+    use 'folke/tokyonight.nvim'
+    use 'navarasu/onedark.nvim'
+    use { "catppuccin/nvim", as = "catppuccin" }
 end)
