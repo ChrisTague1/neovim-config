@@ -56,6 +56,8 @@ return require('packer').startup(function(use)
         run = function() vim.fn["mkdp#util#install"]() end,
     })
     use 'm4xshen/autoclose.nvim'
+    use 'windwp/nvim-ts-autotag'
+    use 'terrortylor/nvim-comment'
     use 'folke/tokyonight.nvim'
     use 'navarasu/onedark.nvim'
     use { "catppuccin/nvim", as = "catppuccin" }
