@@ -6,6 +6,11 @@
   - `:PackerSync` to download new stuff
 - Add more LSP's to `./after/plugin/lsp.lua`
 - Run `:Mason` to view many LSP options
+- In case of emergency:
+  - `rm -rf ~/.local/share/nvim ~/.local/state/nvim ~/.config/nvim`
+  - `sudo apt-get purge --auto-remove neovim`
+  - `sudo apt-get install neovim`
+  - Reinstall [packer](https://github.com/wbthomason/packer.nvim)
 
 # Markdown Preview
 [Github Page](https://github.com/iamcco/markdown-preview.nvim)
