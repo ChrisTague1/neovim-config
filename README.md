@@ -21,8 +21,14 @@
 - `Ctrl + o` to go back in jump list
 - `Ctrl + i` to go forward in jump list
 - `Ctrl + w ` followed by `h, j, k, l` to navigate between windows
+- `Ctrl + e` - view harpoon menu
+- `Ctrl + z, x, c or v` - go to the 1st, 2nd, 3rd, or 4th harpoon file
+- `Ctrl + p` - fuzzy finder for git files
+- `Ctrl + u, d` - go up or down in the file
 - `gr` - Go to references of the thing under the cursor
 - `gd` - Go to the decleration of the thing under the cursor
+- `space + a` - Add current file to harpoon
+- `space + p + f` - file fuzzy finder
 
 # Stuff I gotta do
 - More VS Code like colors
