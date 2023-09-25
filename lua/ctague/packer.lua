@@ -61,4 +61,6 @@ return require('packer').startup(function(use)
     use 'folke/tokyonight.nvim'
     use 'navarasu/onedark.nvim'
     use { "catppuccin/nvim", as = "catppuccin" }
+    use 'lukas-reineke/indent-blankline.nvim'
+    use 'andweeb/presence.nvim'
 end)
