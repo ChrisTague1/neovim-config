@@ -33,3 +33,5 @@
 # Stuff I gotta do
 - More VS Code like colors
 - HTML indentation
+
+Use this https://www.reddit.com/r/neovim/comments/v4mhsv/neovim_setup_for_fullstack_web_development_with/
