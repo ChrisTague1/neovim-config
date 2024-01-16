@@ -31,7 +31,9 @@ return require('packer').startup(function(use)
             "nvim-lua/plenary.nvim",
             "antoinemadec/FixCursorHold.nvim",
             "nvim-treesitter/nvim-treesitter",
+
             "nvim-neotest/neotest-jest"
         }
     }
+    use 'tpope/vim-fugitive'
 end)
