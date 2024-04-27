@@ -25,16 +25,6 @@ return require('packer').startup(function(use)
     use 'navarasu/onedark.nvim'
     use 'm4xshen/autoclose.nvim'
     use 'windwp/nvim-ts-autotag'
-    use {
-        "nvim-neotest/neotest",
-        requires = {
-            "nvim-lua/plenary.nvim",
-            "antoinemadec/FixCursorHold.nvim",
-            "nvim-treesitter/nvim-treesitter",
-
-            "nvim-neotest/neotest-jest"
-        }
-    }
     use 'tpope/vim-fugitive'
     use {
         'numToStr/Comment.nvim',
