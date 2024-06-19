@@ -36,4 +36,15 @@ return require('packer').startup(function(use)
         "iamcco/markdown-preview.nvim",
         run = function() vim.fn["mkdp#util#install"]() end,
     })
+    use {
+        "nvim-neotest/neotest",
+        requires = {
+            "nvim-neotest/nvim-nio",
+            "nvim-lua/plenary.nvim",
+            "antoinemadec/FixCursorHold.nvim",
+            "nvim-treesitter/nvim-treesitter",
+            "rouge8/neotest-rust"
+        }
+    }
+    use 'folke/neodev.nvim'
 end)
