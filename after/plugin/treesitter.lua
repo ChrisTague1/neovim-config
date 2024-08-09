@@ -11,7 +11,9 @@ require'nvim-treesitter.configs'.setup {
         "cpp",
         "svelte",
         "css",
-        'scss'
+        'scss',
+        'toml',
+        'go'
     },
     sync_install = false,
     auto_install = true,

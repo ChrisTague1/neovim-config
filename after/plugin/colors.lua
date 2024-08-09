@@ -3,7 +3,7 @@ function OneDark(color)
 
     require('onedark').setup {
         style = color,
-        transparent = true
+        -- transparent = true
     }
     require('onedark').load()
 
