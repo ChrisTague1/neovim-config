@@ -9,5 +9,12 @@ function OneDark(color)
 
 end
 
+function Ayu()
+    require('ayu').setup({
+        mirage = true
+    })
+    require('ayu').colorscheme()
+end
 
-OneDark()
+-- OneDark()
+Ayu()
