@@ -3,7 +3,6 @@ function OneDark(color)
 
     require('onedark').setup {
         style = color,
-        -- transparent = true
     }
     require('onedark').load()
 
@@ -16,5 +15,4 @@ function Ayu()
     require('ayu').colorscheme()
 end
 
--- OneDark()
-Ayu()
+OneDark()
