@@ -19,4 +19,7 @@
 --
 -- require("nvim-tree").setup({
 --   on_attach = on_attach,
+--   filters = {
+--     git_ignored = false
+--   }
 -- })

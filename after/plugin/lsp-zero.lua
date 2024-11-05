@@ -19,3 +19,5 @@ require('mason-lspconfig').setup({
         lsp_zero.default_setup,
     },
 })
+
+vim.g.python3_host_prog = vim.fn.expand('~/.config/nvim/venv/bin/python')
