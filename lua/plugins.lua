@@ -37,11 +37,5 @@ return require('packer').startup(function(use)
         run = function() vim.fn["mkdp#util#install"]() end,
     })
     use 'tpope/vim-sleuth'
-    use {
-        'nvim-tree/nvim-tree.lua',
-        requires = {
-            'nvim-tree/nvim-web-devicons',
-        },
-    }
     use 'Shatur/neovim-ayu'
 end)
