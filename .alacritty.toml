@@ -1,3 +1,6 @@
+[window]
+  dimensions = { columns = 90, lines = 36 }
+
 [colors]
   [colors.primary]
     background = '#282c34'
